@@ -14,7 +14,7 @@ class Home extends Component{
     return(
 <BrowserRouter>
   <div>
-    <Route exact path="/" component={Nav}>Home</Route>
+    <Route path="/" component={Nav}>Home</Route>
     <Route path="/happy" component={Happy}>Happy</Route>
     <Route path="/guilty" component={Guilty}>Guilty</Route>
     <Route path="/sleepy" component={Sleepy}>Sleepy</Route>
